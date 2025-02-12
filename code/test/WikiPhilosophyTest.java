@@ -1,12 +1,12 @@
 /**
  * 
  */
-package com.allendowney.thinkdast;
 
 import static org.junit.Assert.*;
 
 import java.io.IOException;
 
+import com.allendowney.thinkdast.WikiPhilosophy;
 import org.junit.Test;
 
 /**

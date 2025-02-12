@@ -1,13 +1,14 @@
 /**
  * 
  */
-package com.allendowney.thinkdast;
 
 import static org.junit.Assert.assertThat;
 import static org.hamcrest.CoreMatchers.*;
 
 import java.io.IOException;
 
+import com.allendowney.thinkdast.WikiFetcher;
+import com.allendowney.thinkdast.WikiParser;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.junit.Test;

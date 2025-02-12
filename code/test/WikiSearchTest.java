@@ -1,7 +1,6 @@
 /**
  * 
  */
-package com.allendowney.thinkdast;
 
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
@@ -11,6 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
+import com.allendowney.thinkdast.WikiSearch;
 import org.junit.Before;
 import org.junit.Test;
 

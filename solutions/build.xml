@@ -62,7 +62,7 @@
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="com.allendowney.thinkdast.WikiSearchTest" todir="${junit.output.dir}"/>
+            <test name="WikiSearchTest" todir="${junit.output.dir}"/>
             <classpath refid="ThinkDaSt.classpath"/>
         </junit>
     </target>
@@ -70,7 +70,7 @@
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="com.allendowney.thinkdast.WikiPhilosophyTest" todir="${junit.output.dir}"/>
+            <test name="WikiPhilosophyTest" todir="${junit.output.dir}"/>
             <classpath refid="ThinkDaSt.classpath"/>
         </junit>
     </target>
@@ -348,7 +348,7 @@
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
-            <test name="com.allendowney.thinkdast.WikiParserTest" todir="${junit.output.dir}"/>
+            <test name="WikiParserTest" todir="${junit.output.dir}"/>
             <classpath refid="ThinkDaSt.classpath"/>
         </junit>
     </target>
